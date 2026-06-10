@@ -1,0 +1,60 @@
+{
+"skeleton": {
+	"hash": "PKve88hdxZlTmD9mxr3hkmQX8gs",
+	"spine": "3.8.75",
+	"x": -1415,
+	"y": -735,
+	"width": 2830,
+	"height": 1471,
+	"images": "C:/Users/PC/Desktop/Castle Fortune/HUD/HUD ASSETS",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "bonusLemon", "bone": "root", "attachment": "bonusLemon" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"bonusLemon": {
+				"bonusLemon": { "y": 0.5, "width": 2830, "height": 1471 }
+			}
+		}
+	}
+],
+"animations": {
+	"Clicked": {
+		"bones": {
+			"root": {
+				"rotate": [
+					{},
+					{ "time": 0.1667, "angle": 24.6 },
+					{ "time": 0.3333 }
+				],
+				"scale": [
+					{},
+					{ "time": 0.1667, "x": 1.1, "y": 1.1 },
+					{ "time": 0.3333 }
+				]
+			}
+		}
+	},
+	"idle": {
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 8.3333 },
+					{ "time": 8.4667, "angle": 3 },
+					{ "time": 8.6, "angle": -3 },
+					{ "time": 8.7333, "angle": 3 },
+					{ "time": 8.8667, "angle": -3 },
+					{ "time": 9 }
+				]
+			}
+		}
+	}
+}
+}

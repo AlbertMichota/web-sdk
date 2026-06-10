@@ -1,0 +1,9 @@
+{
+  "src": "/assests/audio/cFSounds/fsLand.MP3",
+  "sprite": {
+    "fsLand": [0, 30000]
+  },
+  "config": {
+    "fsLand": { "volume": 1 }
+  }
+}

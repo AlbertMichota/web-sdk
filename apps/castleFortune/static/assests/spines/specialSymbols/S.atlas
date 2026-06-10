@@ -1,0 +1,26 @@
+FS.png
+size: 1322,417
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+FS_BG
+  rotate: true
+  xy: 633, 2
+  size: 413, 399
+  orig: 1312, 1199
+  offset: 450, 404
+  index: -1
+FS_Crown
+  rotate: true
+  xy: 1034, 88
+  size: 327, 286
+  orig: 1536, 1024
+  offset: 340, 593
+  index: -1
+FS_Text
+  rotate: false
+  xy: 2, 5
+  size: 629, 410
+  orig: 1536, 1024
+  offset: 454, 307
+  index: -1

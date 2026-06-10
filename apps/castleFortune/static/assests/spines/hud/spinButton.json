@@ -1,0 +1,81 @@
+{
+"skeleton": {
+	"hash": "gvh5MDvBRbQrAqFMOzyfWWh6tew",
+	"spine": "3.8.75",
+	"x": -1415,
+	"y": -735,
+	"width": 2830,
+	"height": 1471,
+	"images": "./HUD ASSETS/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root" },
+	{ "name": "bone2", "parent": "root" }
+],
+"slots": [
+	{ "name": "SpinBase", "bone": "root", "attachment": "SpinBase" },
+	{ "name": "spinOff", "bone": "bone", "attachment": "spinOff" },
+	{ "name": "spinOn", "bone": "bone2", "attachment": "spinOn" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"spinOn": {
+				"spinOn": { "y": 0.5, "width": 2830, "height": 1471 }
+			},
+			"spinOff": {
+				"spinOff": { "y": 0.5, "width": 2830, "height": 1471 }
+			},
+			"SpinBase": {
+				"SpinBase": { "y": 0.5, "width": 1254, "height": 1254 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"spinOn": {
+				"attachment": [
+					{ "name": null },
+					{ "time": 0.2, "name": "spinOn" }
+				]
+			},
+			"spinOff": {
+				"color": [
+					{ "time": 0.1667, "color": "ffffffff" },
+					{ "time": 0.2333, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"scale": [
+					{},
+					{ "time": 0.1667, "x": 1.06, "y": 1.06 },
+					{ "time": 0.3333 }
+				]
+			},
+			"bone": {
+				"rotate": [
+					{},
+					{ "time": 0.1667, "angle": 180 }
+				],
+				"scale": [
+					{ "time": 0.1667 },
+					{ "time": 0.2333, "x": 0.05, "y": 0.5 }
+				]
+			},
+			"bone2": {
+				"scale": [
+					{ "time": 0.2, "x": 0.05, "y": 0.05 },
+					{ "time": 0.2667 }
+				]
+			}
+		}
+	}
+}
+}

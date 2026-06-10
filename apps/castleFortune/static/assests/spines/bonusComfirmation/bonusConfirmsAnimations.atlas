@@ -1,0 +1,76 @@
+
+bonusConfirmsAnimations.png
+size: 1547,866
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+double chance confirm/double chance box
+  rotate: false
+  xy: 2, 2
+  size: 556, 427
+  orig: 1920, 1080
+  offset: 682, 326
+  index: -1
+fortune spin confirm/fortune box
+  rotate: false
+  xy: 560, 2
+  size: 556, 427
+  orig: 1920, 1080
+  offset: 682, 326
+  index: -1
+hidden bonus confirm/hidden box
+  rotate: false
+  xy: 2, 431
+  size: 556, 433
+  orig: 1920, 1080
+  offset: 682, 323
+  index: -1
+regular bonus confirm/regular box
+  rotate: true
+  xy: 1118, 308
+  size: 556, 427
+  orig: 1920, 1080
+  offset: 682, 326
+  index: -1
+super bonus confirm/super box
+  rotate: false
+  xy: 560, 431
+  size: 556, 433
+  orig: 1920, 1080
+  offset: 682, 323
+  index: -1
+super bonus confirm/super confirm
+  rotate: false
+  xy: 1118, 244
+  size: 415, 62
+  orig: 1920, 1080
+  offset: 753, 347
+  index: -1
+double chance confirm/double chance confirm
+  rotate: false
+  xy: 1118, 244
+  size: 415, 62
+  orig: 1920, 1080
+  offset: 753, 340
+  index: -1
+fortune spin confirm/fortune confirm
+  rotate: false
+  xy: 1118, 244
+  size: 415, 62
+  orig: 1920, 1080
+  offset: 753, 340
+  index: -1
+hidden bonus confirm/hidden confirm
+  rotate: false
+  xy: 1118, 244
+  size: 415, 62
+  orig: 1920, 1080
+  offset: 753, 340
+  index: -1
+regular bonus confirm/regular confirm
+  rotate: false
+  xy: 1118, 244
+  size: 415, 62
+  orig: 1920, 1080
+  offset: 753, 347
+  index: -1

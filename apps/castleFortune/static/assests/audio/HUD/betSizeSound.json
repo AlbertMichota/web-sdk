@@ -1,0 +1,9 @@
+{
+  "src": "/assests/audio/HUD/betSizeSound.MP3",
+  "sprite": {
+    "betSizeSound": [0, 5000]
+  },
+  "config": {
+    "betSizeSound": { "volume": 1 }
+  }
+}

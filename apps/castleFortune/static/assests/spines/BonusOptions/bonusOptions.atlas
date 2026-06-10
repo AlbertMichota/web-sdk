@@ -1,0 +1,76 @@
+
+bonusOptions.png
+size: 1547,866
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+double chance assets/double chance activate
+  rotate: false
+  xy: 1118, 243
+  size: 415, 63
+  orig: 1920, 1080
+  offset: 753, 387
+  index: -1
+fortune spin assets/fortune spin activate
+  rotate: false
+  xy: 1118, 243
+  size: 415, 63
+  orig: 1920, 1080
+  offset: 753, 387
+  index: -1
+hidden bonus assets/hidden bonus activate
+  rotate: false
+  xy: 1118, 243
+  size: 415, 63
+  orig: 1920, 1080
+  offset: 753, 387
+  index: -1
+regular bonus assets/regular bonus activate
+  rotate: false
+  xy: 1118, 243
+  size: 415, 63
+  orig: 1920, 1080
+  offset: 753, 387
+  index: -1
+super bonus assets/super bonus activate
+  rotate: false
+  xy: 1118, 243
+  size: 415, 63
+  orig: 1920, 1080
+  offset: 753, 387
+  index: -1
+double chance assets/double chance box
+  rotate: false
+  xy: 2, 2
+  size: 556, 427
+  orig: 1920, 1080
+  offset: 682, 364
+  index: -1
+fortune spin assets/fortune spin box
+  rotate: false
+  xy: 560, 2
+  size: 556, 427
+  orig: 1920, 1080
+  offset: 682, 364
+  index: -1
+hidden bonus assets/hidden bonus box
+  rotate: false
+  xy: 560, 431
+  size: 556, 433
+  orig: 1920, 1080
+  offset: 682, 359
+  index: -1
+regular bonus assets/regular bonus box
+  rotate: true
+  xy: 1118, 308
+  size: 556, 427
+  orig: 1920, 1080
+  offset: 682, 364
+  index: -1
+super bonus assets/super bonus box
+  rotate: false
+  xy: 2, 431
+  size: 556, 433
+  orig: 1920, 1080
+  offset: 682, 359
+  index: -1

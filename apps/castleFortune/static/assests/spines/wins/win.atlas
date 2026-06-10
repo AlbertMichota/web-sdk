@@ -1,0 +1,55 @@
+
+win animation.png
+size: 809,979
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Big Win/BIG
+  rotate: false
+  xy: 2, 223
+  size: 533, 290
+  orig: 1500, 1010
+  offset: 484, 496
+  index: -1
+Huge Win/HUGE
+  rotate: false
+  xy: 2, 709
+  size: 805, 268
+  orig: 1500, 1010
+  offset: 348, 489
+  index: -1
+Insane Win/INSANE
+  rotate: false
+  xy: 2, 515
+  size: 802, 192
+  orig: 1500, 1010
+  offset: 350, 489
+  index: -1
+Insane Win/WIN WHITE
+  rotate: true
+  xy: 563, 62
+  size: 451, 187
+  orig: 1500, 1010
+  offset: 525, 302
+  index: -1
+Huge Win/WIN WHITE
+  rotate: true
+  xy: 563, 62
+  size: 451, 187
+  orig: 1500, 1010
+  offset: 525, 302
+  index: -1
+Nice Win/WIN WHITE
+  rotate: true
+  xy: 563, 62
+  size: 451, 187
+  orig: 1500, 1010
+  offset: 525, 302
+  index: -1
+Nice Win/NICE
+  rotate: false
+  xy: 2, 2
+  size: 559, 219
+  orig: 1500, 1010
+  offset: 471, 489
+  index: -1

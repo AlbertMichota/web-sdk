@@ -1,0 +1,9 @@
+{
+  "src": "/assests/audio/HUD/spinButtonSound.MP3",
+  "sprite": {
+    "hud_spin_button": [0, 10000]
+  },
+  "config": {
+    "hud_spin_button": { "volume": 1 }
+  }
+}

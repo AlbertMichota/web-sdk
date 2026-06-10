@@ -1,0 +1,9 @@
+{
+  "src": "/assests/audio/HUD/onOffAnimationSounds.MP3",
+  "sprite": {
+    "hud_on_off_animation": [0, 10000]
+  },
+  "config": {
+    "hud_on_off_animation": { "volume": 1 }
+  }
+}

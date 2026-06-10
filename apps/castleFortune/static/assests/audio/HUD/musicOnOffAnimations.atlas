@@ -1,0 +1,20 @@
+
+musicOnOffAnimations.png
+size: 280,139
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+musicOff
+  rotate: false
+  xy: 141, 2
+  size: 137, 135
+  orig: 2830, 1471
+  offset: 1346, 668
+  index: -1
+musicOn
+  rotate: false
+  xy: 2, 2
+  size: 137, 135
+  orig: 2830, 1471
+  offset: 1346, 668
+  index: -1

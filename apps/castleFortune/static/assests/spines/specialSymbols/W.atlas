@@ -1,0 +1,41 @@
+
+Wild.png
+size: 940,593
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+WILD_Border_Bottom
+  rotate: false
+  xy: 2, 2
+  size: 426, 161
+  orig: 1254, 1254
+  offset: 414, 411
+  index: -1
+WILD_Border_Top
+  rotate: true
+  xy: 2, 165
+  size: 426, 271
+  orig: 1254, 1254
+  offset: 414, 572
+  index: -1
+Wild_Background
+  rotate: false
+  xy: 275, 179
+  size: 374, 412
+  orig: 1254, 1254
+  offset: 440, 421
+  index: -1
+Wild_Castle
+  rotate: false
+  xy: 651, 245
+  size: 287, 346
+  orig: 1254, 1254
+  offset: 483, 464
+  index: -1
+Wild_TEXT
+  rotate: false
+  xy: 430, 32
+  size: 410, 145
+  orig: 1254, 1254
+  offset: 422, 421
+  index: -1

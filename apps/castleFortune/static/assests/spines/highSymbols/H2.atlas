@@ -1,0 +1,48 @@
+
+H2.webp
+size: 1086,999
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BOTTOM BAG
+  rotate: false
+  xy: 2, 289
+  size: 933, 708
+  orig: 1254, 1254
+  offset: 164, 199
+  index: -1
+COIN STUCK
+  rotate: false
+  xy: 483, 61
+  size: 582, 224
+  orig: 1254, 1254
+  offset: 345, 738
+  index: -1
+COIN1
+  rotate: true
+  xy: 238, 5
+  size: 280, 243
+  orig: 1254, 1254
+  offset: 313, 880
+  index: -1
+COIN2
+  rotate: true
+  xy: 2, 2
+  size: 283, 234
+  orig: 1254, 1254
+  offset: 495, 891
+  index: -1
+COIN3
+  rotate: true
+  xy: 2, 2
+  size: 283, 234
+  orig: 1254, 1254
+  offset: 673, 878
+  index: -1
+TOP Bag
+  rotate: true
+  xy: 937, 287
+  size: 710, 147
+  orig: 1254, 1254
+  offset: 280, 907
+  index: -1

@@ -1,0 +1,27 @@
+
+Reel.png
+size: 1863,938
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Reel
+  rotate: false
+  xy: 2, 2
+  size: 1066, 934
+  orig: 1920, 1080
+  offset: 427, 68
+  index: -1
+Reel BG
+  rotate: true
+  xy: 1070, 88
+  size: 848, 607
+  orig: 1920, 1080
+  offset: 524, 146
+  index: -1
+glow hit
+  rotate: true
+  xy: 1679, 48
+  size: 888, 182
+  orig: 1920, 1080
+  offset: 518, 85
+  index: -1

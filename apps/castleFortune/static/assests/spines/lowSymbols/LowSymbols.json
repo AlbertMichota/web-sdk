@@ -1,0 +1,118 @@
+{
+"skeleton": {
+	"hash": "2yOYCu4EjyaBSCoLBwrtcfLx0qU",
+	"spine": "3.8.75",
+	"x": -768,
+	"y": -512,
+	"width": 1536,
+	"height": 1024,
+	"images": "../Symbol Conponents/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "non premium", "parent": "root" }
+],
+"slots": [
+	{ "name": "OFF", "bone": "non premium", "attachment": "OFF" },
+	{ "name": "ON", "bone": "non premium", "color": "ffffff00", "attachment": "ON" }
+],
+"skins": [
+	{
+		"name": "L1",
+		"attachments": {
+			"OFF": {
+				"OFF": { "name": "10 Components/10OFF", "width": 1536, "height": 1024 }
+			},
+			"ON": {
+				"ON": { "name": "10 Components/10ON", "width": 1536, "height": 1024 }
+			}
+		}
+	},
+	{
+		"name": "L5",
+		"attachments": {
+			"OFF": {
+				"OFF": { "name": "Ace Components/AceOFF", "width": 1536, "height": 1024 }
+			},
+			"ON": {
+				"ON": { "name": "Ace Components/AceON", "width": 1536, "height": 1024 }
+			}
+		}
+	},
+	{
+		"name": "L2",
+		"attachments": {
+			"OFF": {
+				"OFF": { "name": "Jack Components/JackOFF", "width": 1536, "height": 1024 }
+			},
+			"ON": {
+				"ON": { "name": "Jack Components/JackON copy", "width": 1536, "height": 1024 }
+			}
+		}
+	},
+	{
+		"name": "L4",
+		"attachments": {
+			"OFF": {
+				"OFF": { "name": "King Components/KingOFF", "width": 1536, "height": 1024 }
+			},
+			"ON": {
+				"ON": { "name": "King Components/KingON", "width": 1536, "height": 1024 }
+			}
+		}
+	},
+	{
+		"name": "L3",
+		"attachments": {
+			"OFF": {
+				"OFF": { "name": "Queen Components/QueenOFF", "width": 1536, "height": 1024 }
+			},
+			"ON": {
+				"ON": { "name": "Queen Components/QueenON", "width": 1536, "height": 1024 }
+			}
+		}
+	}
+],
+"animations": {
+	"fall": {
+		"bones": {
+			"non premium": {
+				"scale": [
+					{},
+					{ "time": 0.1667, "x": 0.99, "y": 0.89 },
+					{ "time": 0.3333 }
+				]
+			}
+		}
+	},
+	"hit": {
+		"slots": {
+			"ON": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.4667, "color": "ffffffed" },
+					{ "time": 0.5, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{},
+					{ "time": 0.4, "angle": 5 },
+					{ "time": 0.5 },
+					{ "time": 0.6, "angle": -5 },
+					{ "time": 1 }
+				],
+				"scale": [
+					{},
+					{ "time": 0.5, "x": 1.05, "y": 1.05 },
+					{ "time": 1 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,95 @@
+{
+"skeleton": {
+	"hash": "BJaFDv3bjI7qjLmUBW+oiRd1bOA",
+	"spine": "3.8.75",
+	"x": -960,
+	"y": -540,
+	"width": 1920,
+	"height": 1080,
+	"images": "C:/Users/PC/Desktop/Castle Fortune/bonus screens",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root" }
+],
+"slots": [
+	{ "name": "box", "bone": "root", "attachment": "box" },
+	{ "name": "confirm", "bone": "bone", "attachment": "confirm" }
+],
+"skins": [
+	{
+		"name": "doubleChanceconfirm",
+		"attachments": {
+			"confirm": {
+				"confirm": { "name": "double chance confirm/double chance confirm", "width": 1920, "height": 1080 }
+			},
+			"box": {
+				"box": { "name": "double chance confirm/double chance box", "width": 1920, "height": 1080 }
+			}
+		}
+	},
+	{
+		"name": "fortuneSpinconfirm",
+		"attachments": {
+			"confirm": {
+				"confirm": { "name": "fortune spin confirm/fortune confirm", "width": 1920, "height": 1080 }
+			},
+			"box": {
+				"box": { "name": "fortune spin confirm/fortune box", "width": 1920, "height": 1080 }
+			}
+		}
+	},
+	{
+		"name": "hiddenBonusconfirm",
+		"attachments": {
+			"confirm": {
+				"confirm": { "name": "hidden bonus confirm/hidden confirm", "width": 1920, "height": 1080 }
+			},
+			"box": {
+				"box": { "name": "hidden bonus confirm/hidden box", "width": 1920, "height": 1080 }
+			}
+		}
+	},
+	{
+		"name": "regularBonusconfirm",
+		"attachments": {
+			"confirm": {
+				"confirm": { "name": "regular bonus confirm/regular confirm", "width": 1920, "height": 1080 }
+			},
+			"box": {
+				"box": { "name": "regular bonus confirm/regular box", "width": 1920, "height": 1080 }
+			}
+		}
+	},
+	{
+		"name": "superBonusconfirm",
+		"attachments": {
+			"confirm": {
+				"confirm": { "name": "super bonus confirm/super confirm", "width": 1920, "height": 1080 }
+			},
+			"box": {
+				"box": { "name": "super bonus confirm/super box", "width": 1920, "height": 1080 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"bones": {
+			"bone": {
+				"translate": [
+					{},
+					{ "time": 0.1, "y": -10.5 },
+					{ "time": 0.2 }
+				],
+				"scale": [
+					{},
+					{ "time": 0.1, "x": 0.95, "y": 0.95 },
+					{ "time": 0.2 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,27 @@
+
+spinButton.png
+size: 474,334
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+SpinBase
+  rotate: false
+  xy: 2, 46
+  size: 285, 286
+  orig: 1254, 1254
+  offset: 484, 484
+  index: -1
+spinOff
+  rotate: true
+  xy: 289, 152
+  size: 180, 183
+  orig: 2830, 1471
+  offset: 1325, 644
+  index: -1
+spinOn
+  rotate: false
+  xy: 289, 2
+  size: 148, 148
+  orig: 2830, 1471
+  offset: 1341, 661
+  index: -1

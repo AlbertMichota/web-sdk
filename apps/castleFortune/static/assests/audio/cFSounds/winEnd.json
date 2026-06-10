@@ -1,0 +1,9 @@
+{
+  "src": "/assests/audio/cFSounds/winEnd.MP3",
+  "sprite": {
+    "winEnd": [0, 30000]
+  },
+  "config": {
+    "winEnd": { "volume": 1 }
+  }
+}

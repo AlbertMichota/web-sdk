@@ -1,0 +1,41 @@
+{
+"skeleton": {
+	"hash": "5sPsdUIX8Jp24bKnUsz+MU8ftLk",
+	"spine": "3.8.75",
+	"x": -836,
+	"y": -470,
+	"width": 1672,
+	"height": 941,
+	"images": "C:/Users/PC/Desktop/Castle Fortune/starting screen",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "PRESS TO CONTINUE", "bone": "root", "attachment": "PRESS TO CONTINUE" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"PRESS TO CONTINUE": {
+				"PRESS TO CONTINUE": { "y": 0.5, "width": 1672, "height": 941 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"PRESS TO CONTINUE": {
+				"color": [
+					{ "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffffaf" },
+					{ "time": 1.6667, "color": "ffffffff" }
+				]
+			}
+		}
+	}
+}
+}

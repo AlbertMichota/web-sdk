@@ -1,0 +1,160 @@
+{
+"skeleton": {
+	"hash": "nLIhaqq3gzRknEMv0TelOt9r5uo",
+	"spine": "3.8.75",
+	"x": -1415,
+	"y": -735,
+	"width": 2830,
+	"height": 1471,
+	"images": "./HUD ASSETS/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root" }
+],
+"slots": [
+	{ "name": "autospinOn", "bone": "bone", "attachment": "on" },
+	{ "name": "autospinOff", "bone": "root", "attachment": "off" }
+],
+"skins": [
+	{
+		"name": "autoSpinoff",
+		"attachments": {
+			"autospinOn": {
+				"on": { "name": "autospinOff", "y": 0.5, "width": 2830, "height": 1471 }
+			},
+			"autospinOff": {
+				"off": { "name": "autospinOn", "y": 0.5, "width": 2830, "height": 1471 }
+			}
+		}
+	},
+	{
+		"name": "autoSpinon",
+		"attachments": {
+			"autospinOn": {
+				"on": { "name": "autospinOn", "y": 0.5, "width": 2830, "height": 1471 }
+			},
+			"autospinOff": {
+				"off": { "name": "autospinOff", "y": 0.5, "width": 2830, "height": 1471 }
+			}
+		}
+	},
+	{
+		"name": "autospinHigher",
+		"attachments": {
+			"autospinOn": {
+				"on": { "name": "autospinHigherON", "y": 0.5, "width": 2830, "height": 1471 }
+			},
+			"autospinOff": {
+				"off": { "name": "autospinHigherOFF", "y": 0.5, "width": 2830, "height": 1471 }
+			}
+		}
+	},
+	{
+		"name": "autospinLower",
+		"attachments": {
+			"autospinOn": {
+				"on": { "name": "autospinLowerON", "y": 0.5, "width": 2830, "height": 1471 }
+			},
+			"autospinOff": {
+				"off": { "name": "autospinLowerOFF", "y": 0.5, "width": 2830, "height": 1471 }
+			}
+		}
+	},
+	{
+		"name": "betHigher",
+		"attachments": {
+			"autospinOn": {
+				"on": { "name": "betHigherON", "y": 0.5, "width": 2830, "height": 1471 }
+			},
+			"autospinOff": {
+				"off": { "name": "betHigher", "y": 0.5, "width": 2830, "height": 1471 }
+			}
+		}
+	},
+	{
+		"name": "betLower",
+		"attachments": {
+			"autospinOn": {
+				"on": { "name": "betLowerON", "y": 0.5, "width": 2830, "height": 1471 }
+			},
+			"autospinOff": {
+				"off": { "name": "betLower", "y": 0.5, "width": 2830, "height": 1471 }
+			}
+		}
+	},
+	{
+		"name": "offonvolumeButton",
+		"attachments": {
+			"autospinOn": {
+				"on": { "name": "volumeOn", "y": 0.5, "width": 2830, "height": 1471 }
+			},
+			"autospinOff": {
+				"off": { "name": "volumeOff", "y": 0.5, "width": 2830, "height": 1471 }
+			}
+		}
+	},
+	{
+		"name": "onoffvolumeButton",
+		"attachments": {
+			"autospinOn": {
+				"on": { "name": "volumeOff", "y": 0.5, "width": 2830, "height": 1471 }
+			},
+			"autospinOff": {
+				"off": { "name": "volumeOn", "y": 0.5, "width": 2830, "height": 1471 }
+			}
+		}
+	},
+	{
+		"name": "turboButtonoff",
+		"attachments": {
+			"autospinOn": {
+				"on": { "name": "turboOff", "y": 0.5, "width": 2830, "height": 1471 }
+			},
+			"autospinOff": {
+				"off": { "name": "turboOn", "y": 0.5, "width": 2830, "height": 1471 }
+			}
+		}
+	},
+	{
+		"name": "turboButtonon",
+		"attachments": {
+			"autospinOn": {
+				"on": { "name": "turboOn", "y": 0.5, "width": 2830, "height": 1471 }
+			},
+			"autospinOff": {
+				"off": { "name": "turboOff", "y": 0.5, "width": 2830, "height": 1471 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"autospinOff": {
+				"color": [
+					{ "color": "ffffffff" },
+					{ "time": 0.1, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"scale": [
+					{},
+					{ "time": 0.1333, "x": 1.1, "y": 1.1 },
+					{ "time": 0.2667 }
+				]
+			},
+			"bone": {
+				"scale": [
+					{},
+					{ "time": 0.1, "x": 1.1, "y": 1.1 },
+					{ "time": 0.2667 }
+				]
+			}
+		}
+	}
+}
+}

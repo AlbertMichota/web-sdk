@@ -1,0 +1,61 @@
+{
+"skeleton": {
+	"hash": "YNnqX2Yp28LCWR+rRF2K5DAHedo",
+	"spine": "3.8.75",
+	"x": -627,
+	"y": -627,
+	"width": 1254,
+	"height": 1254,
+	"images": "../Symbol Conponents/Crown Components/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root" }
+],
+"slots": [
+	{ "name": "CrownON", "bone": "root", "attachment": "Symbol_Crown_ONLY" },
+	{ "name": "CrownGEM", "bone": "bone", "attachment": "Symbol_Crown_Gem_ONLY" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"CrownON": {
+				"Symbol_Crown_ONLY": { "width": 1254, "height": 1254 }
+			},
+			"CrownGEM": {
+				"Symbol_Crown_Gem_ONLY": { "width": 1254, "height": 1254 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"bones": {
+			"bone": {
+				"rotate": [
+					{},
+					{ "time": 0.4, "angle": 8 },
+					{ "time": 1 }
+				],
+				"scale": [
+					{},
+					{ "time": 0.4, "x": 1.1, "y": 1.1 },
+					{ "time": 0.9, "x": 1.19, "y": 1.19 },
+					{ "time": 1 }
+				]
+			},
+			"root": {
+				"scale": [
+					{},
+					{ "time": 0.3667, "x": 1.09, "y": 1.09 },
+					{ "time": 0.5, "x": 1.13, "y": 1.13 },
+					{ "time": 0.6333, "x": 1.09, "y": 1.09 },
+					{ "time": 1 }
+				]
+			}
+		}
+	}
+}
+}

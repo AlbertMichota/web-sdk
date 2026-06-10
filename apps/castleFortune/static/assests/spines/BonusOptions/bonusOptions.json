@@ -1,0 +1,95 @@
+{
+"skeleton": {
+	"hash": "a3PUCcwpaLH8zDFeoiurrC3c5DM",
+	"spine": "3.8.75",
+	"x": -960,
+	"y": -540,
+	"width": 1920,
+	"height": 1080,
+	"images": "C:/Users/PC/Desktop/Castle Fortune/bonus screens",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root" }
+],
+"slots": [
+	{ "name": "box", "bone": "root", "attachment": "box1" },
+	{ "name": "activate", "bone": "bone", "attachment": "activate2" }
+],
+"skins": [
+	{
+		"name": "doubleChance",
+		"attachments": {
+			"box": {
+				"box1": { "name": "double chance assets/double chance box", "width": 1920, "height": 1080 }
+			},
+			"activate": {
+				"activate2": { "name": "double chance assets/double chance activate", "width": 1920, "height": 1080 }
+			}
+		}
+	},
+	{
+		"name": "fortuneSpin",
+		"attachments": {
+			"box": {
+				"box1": { "name": "fortune spin assets/fortune spin box", "width": 1920, "height": 1080 }
+			},
+			"activate": {
+				"activate2": { "name": "fortune spin assets/fortune spin activate", "width": 1920, "height": 1080 }
+			}
+		}
+	},
+	{
+		"name": "hiddenBonus",
+		"attachments": {
+			"box": {
+				"box1": { "name": "hidden bonus assets/hidden bonus box", "width": 1920, "height": 1080 }
+			},
+			"activate": {
+				"activate2": { "name": "hidden bonus assets/hidden bonus activate", "width": 1920, "height": 1080 }
+			}
+		}
+	},
+	{
+		"name": "regluarBonus",
+		"attachments": {
+			"box": {
+				"box1": { "name": "regular bonus assets/regular bonus box", "width": 1920, "height": 1080 }
+			},
+			"activate": {
+				"activate2": { "name": "regular bonus assets/regular bonus activate", "width": 1920, "height": 1080 }
+			}
+		}
+	},
+	{
+		"name": "superBonus",
+		"attachments": {
+			"box": {
+				"box1": { "name": "super bonus assets/super bonus box", "width": 1920, "height": 1080 }
+			},
+			"activate": {
+				"activate2": { "name": "super bonus assets/super bonus activate", "width": 1920, "height": 1080 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"bones": {
+			"bone": {
+				"translate": [
+					{},
+					{ "time": 0.1, "y": 11 },
+					{ "time": 0.2 }
+				],
+				"scale": [
+					{},
+					{ "time": 0.1, "x": 1.1, "y": 1.1 },
+					{ "time": 0.2 }
+				]
+			}
+		}
+	}
+}
+}

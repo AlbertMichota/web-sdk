@@ -1,0 +1,9 @@
+{
+  "src": "/assests/audio/cFSounds/symbolsLanding.MP3",
+  "sprite": {
+    "symbolsLanding": [0, 10000]
+  },
+  "config": {
+    "symbolsLanding": { "volume": 1 }
+  }
+}

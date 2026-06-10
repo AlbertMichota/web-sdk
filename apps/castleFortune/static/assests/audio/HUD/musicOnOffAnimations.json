@@ -1,0 +1,72 @@
+{
+"skeleton": {
+	"hash": "l0MHruCUobIEm0xbet/42Udkzzc",
+	"spine": "3.8.75",
+	"x": -1415,
+	"y": -735,
+	"width": 2830,
+	"height": 1471,
+	"images": "./HUD ASSETS/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root" }
+],
+"slots": [
+	{ "name": "autospinOn", "bone": "bone", "attachment": "on" },
+	{ "name": "autospinOff", "bone": "root", "attachment": "off" }
+],
+"skins": [
+	{
+		"name": "musicButtonOffOn",
+		"attachments": {
+			"autospinOn": {
+				"on": { "name": "musicOn", "y": 0.5, "width": 2830, "height": 1471 }
+			},
+			"autospinOff": {
+				"off": { "name": "musicOff", "y": 0.5, "width": 2830, "height": 1471 }
+			}
+		}
+	},
+	{
+		"name": "musicButtonOnOff",
+		"attachments": {
+			"autospinOn": {
+				"on": { "name": "musicOff", "y": 0.5, "width": 2830, "height": 1471 }
+			},
+			"autospinOff": {
+				"off": { "name": "musicOn", "y": 0.5, "width": 2830, "height": 1471 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"autospinOff": {
+				"color": [
+					{ "color": "ffffffff" },
+					{ "time": 0.1, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"scale": [
+					{},
+					{ "time": 0.1333, "x": 1.1, "y": 1.1 },
+					{ "time": 0.2667 }
+				]
+			},
+			"bone": {
+				"scale": [
+					{},
+					{ "time": 0.1, "x": 1.1, "y": 1.1 },
+					{ "time": 0.2667 }
+				]
+			}
+		}
+	}
+}
+}

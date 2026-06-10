@@ -1,0 +1,9 @@
+{
+  "src": "/assests/audio/HUD/bonusLemonSounds.MP3",
+  "sprite": {
+    "bonusLemonSound": [0, 10000]
+  },
+  "config": {
+    "bonusLemonSound": { "volume": 1 }
+  }
+}

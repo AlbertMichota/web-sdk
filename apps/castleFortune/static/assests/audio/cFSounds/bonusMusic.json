@@ -1,0 +1,9 @@
+{
+  "src": "/assests/audio/cFSounds/bonusMusic.MP3",
+  "sprite": {
+    "bonusMusic": [0, 300000, true]
+  },
+  "config": {
+    "bonusMusic": { "volume": 1 }
+  }
+}

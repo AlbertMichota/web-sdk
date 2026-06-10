@@ -1,0 +1,20 @@
+
+H3.webp
+size: 605,691
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+CHEST_TOP
+  rotate: false
+  xy: 2, 338
+  size: 601, 351
+  orig: 1536, 1024
+  offset: 467, 436
+  index: -1
+Chest_BOT_with_coins
+  rotate: false
+  xy: 2, 2
+  size: 592, 334
+  orig: 1536, 1024
+  offset: 473, 239
+  index: -1

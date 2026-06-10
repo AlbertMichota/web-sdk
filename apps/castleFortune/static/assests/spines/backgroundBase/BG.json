@@ -1,0 +1,129 @@
+{
+"skeleton": {
+	"hash": "Uqz5W7mmBRZ7IQKpz8KQdD+XhkU",
+	"spine": "3.8.75",
+	"x": -960,
+	"y": -540,
+	"width": 1920,
+	"height": 1080,
+	"images": "../Mockups and assets/",
+	"audio": "C:/Users/PC/Desktop/Castle Fortune/test"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root" },
+	{ "name": "bone2", "parent": "root" },
+	{ "name": "bone3", "parent": "bone" },
+	{ "name": "bone4", "parent": "bone" }
+],
+"slots": [
+	{ "name": "Castle_Fortune_BG", "bone": "root", "attachment": "CF_BG" },
+	{ "name": "cloud2", "bone": "root", "attachment": "cloud" },
+	{ "name": "cloud", "bone": "bone", "color": "ffffff71", "attachment": "49b8ccb2-67b6-4ce6-a88f-3dd936d0e899a copy" },
+	{ "name": "castlefore", "bone": "bone2", "attachment": "CASTLE IMAGE" },
+	{ "name": "cloud3", "bone": "bone3", "attachment": "49b8ccb2-67b6-4ce6-a88f-dd936d0e899a copdry" },
+	{ "name": "cloud4", "bone": "bone4", "attachment": "49b8ccb2-67b6-4ce6-a88f-dd936d0e899a copy" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"cloud2": {
+				"cloud": {
+					"type": "clipping",
+					"end": "cloud",
+					"vertexCount": 4,
+					"vertices": [ -958.99, 538.94, -959.68, -539.89, 959.76, -539.96, 959.91, 539.96 ],
+					"color": "ce3a3aff"
+				}
+			},
+			"cloud3": {
+				"49b8ccb2-67b6-4ce6-a88f-dd936d0e899a copdry": { "width": 1536, "height": 1024 }
+			},
+			"cloud4": {
+				"49b8ccb2-67b6-4ce6-a88f-dd936d0e899a copy": { "width": 1536, "height": 1024 }
+			},
+			"Castle_Fortune_BG": {
+				"CF_BG": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 960, -540, -960, -540, -960, 540, 960, 540 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 1920,
+					"height": 1080
+				}
+			},
+			"castlefore": {
+				"CASTLE IMAGE": { "width": 1920, "height": 1080 }
+			},
+			"cloud": {
+				"49b8ccb2-67b6-4ce6-a88f-3dd936d0e899a copy": { "x": -1410.11, "y": 454.67, "width": 1536, "height": 1024 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"cloud4": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 17.3333, "color": "ffffffa5", "curve": "stepped" },
+					{ "time": 30, "color": "ffffffa5" },
+					{ "time": 33.3333, "color": "ffffff00" }
+				]
+			},
+			"cloud3": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 6.6667, "color": "ffffffa4" }
+				]
+			},
+			"cloud": {
+				"color": [
+					{ "color": "ffffffa4" }
+				]
+			}
+		},
+		"bones": {
+			"bone": {
+				"translate": [
+					{},
+					{ "time": 15.4333, "x": 1418.12, "y": -131.65 },
+					{ "time": 33.3667, "x": 2841.91 }
+				],
+				"scale": [
+					{},
+					{ "time": 15.4333, "x": 1.2, "y": 1.2 },
+					{ "time": 33.3667 }
+				]
+			},
+			"bone3": {
+				"rotate": [
+					{ "angle": 5.33 }
+				],
+				"translate": [
+					{ "x": -175.79, "y": 376.69, "curve": "stepped" },
+					{ "time": 9.9, "x": -175.79, "y": 376.69 },
+					{ "time": 16.7, "x": -185.79, "y": 376.69 }
+				]
+			},
+			"bone4": {
+				"translate": [
+					{ "x": -2803.1, "y": 483.4 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"offsets": [
+					{ "slot": "cloud", "offset": 2 },
+					{ "slot": "castlefore", "offset": 2 }
+				]
+			}
+		]
+	}
+}
+}

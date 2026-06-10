@@ -1,5 +1,3 @@
-import WebFont from 'webfontloader';
-
 import type { PixiPoint, Sizes } from './types';
 
 export const REM = 16;
@@ -59,8 +57,15 @@ export function detectWebGL() {
 }
 
 export const preloadFont = () =>
-	new Promise<void>((resolve) => {
+	new Promise<void>(async (resolve) => {
+		if (typeof window === 'undefined') {
+			resolve();
+			return;
+		}
+
 		try {
+			const { default: WebFont } = await import('webfontloader');
+
 			WebFont.load({
 				typekit: {
 					id: 'aba0ebl',

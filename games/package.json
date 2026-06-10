@@ -1,0 +1,22 @@
+{
+  "name": "games",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./core":  "./core/index.js",
+    "./ui":    "./ui/index.js",
+    "./utils": "./utils/index.js"
+  },
+  "dependencies": {
+    "pixi-svelte":         "workspace:*",
+    "utils-book":          "workspace:*",
+    "utils-event-emitter": "workspace:*",
+    "utils-layout":        "workspace:*",
+    "utils-slots":         "workspace:*",
+    "utils-sound":         "workspace:*",
+    "utils-xstate":        "workspace:*",
+    "state-shared":        "workspace:*",
+    "constants-shared":    "workspace:*"
+  }
+}

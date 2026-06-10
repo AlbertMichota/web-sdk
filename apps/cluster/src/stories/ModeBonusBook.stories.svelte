@@ -1,52 +1,64 @@
 <script lang="ts" module>
-	import { defineMeta } from '@storybook/addon-svelte-csf';
-
-	const { Story } = defineMeta({
-		title: 'MODE_BONUS/book',
-	});
+  import { defineMeta } from '@storybook/addon-svelte-csf';
+  const { Story } = defineMeta({
+    title: 'Castle Fortune / MODE_BONUS / book',
+  });
 </script>
 
 <script lang="ts">
-	import {
-		StoryGameTemplate,
-		StoryLocale,
-		type TemplateArgs,
-		templateArgs,
-	} from 'components-storybook';
-	import { randomInteger } from 'utils-shared/random';
+  import { StoryLocale, StoryGameTemplate, type TemplateArgs, templateArgs } from 'components-storybook';
+  import Game from '../components/Game.svelte';
+  import { setContext } from '../game/context.js';
+  import { BONUS_BOOKS } from './data/bonus_books.js';
+  setContext();
 
-	import Game from '../components/Game.svelte';
-	import { setContext } from '../game/context';
-	import { playBet } from '../game/utils';
-	import books from './data/bonus_books';
-
-	setContext();
+  import { getContext } from '../game/context.js';
+  const { bookPlayer } = getContext();
 </script>
 
 {#snippet template(args: TemplateArgs<any>)}
-	<StoryGameTemplate
-		skipLoadingScreen={args.skipLoadingScreen}
-		action={async () => {
-			await args.action?.(args.data);
-		}}
-	>
-		<StoryLocale lang="en">
-			<Game />
-		</StoryLocale>
-	</StoryGameTemplate>
+  <StoryGameTemplate
+    skipLoadingScreen={args.skipLoadingScreen}
+    action={async () => { await args.action?.(args.data); }}
+  >
+    <StoryLocale lang="en">
+      <Game />
+    </StoryLocale>
+  </StoryGameTemplate>
 {/snippet}
 
+<Story name="component (loadingScreen)">
+  <StoryLocale lang="en">
+    <Game />
+  </StoryLocale>
+</Story>
+
 <Story
-	name="random"
-	args={templateArgs({
-		skipLoadingScreen: true,
-		data: {},
-		action: async () => {
-			const index = randomInteger({ min: 0, max: books.length - 1 });
-			const data = books[index];
-			console.log('Running a book at index', index);
-			await playBet({ ...data, state: data.events });
-		},
-	})}
-	{template}
+  name="single_spin_win"
+  args={templateArgs({ skipLoadingScreen: true, data: {}, action: async () => { await bookPlayer.playBook(BONUS_BOOKS['single_spin_win']); } })}
+  {template}
+/>
+
+<Story
+  name="retrigger"
+  args={templateArgs({ skipLoadingScreen: true, data: {}, action: async () => { await bookPlayer.playBook(BONUS_BOOKS['retrigger']); } })}
+  {template}
+/>
+
+<Story
+  name="wild_blocks"
+  args={templateArgs({ skipLoadingScreen: true, data: {}, action: async () => { await bookPlayer.playBook(BONUS_BOOKS['wild_blocks']); } })}
+  {template}
+/>
+
+<Story
+  name="freespin_end"
+  args={templateArgs({ skipLoadingScreen: true, data: {}, action: async () => { await bookPlayer.playBook(BONUS_BOOKS['freespin_end']); } })}
+  {template}
+/>
+
+<Story
+  name="full_round"
+  args={templateArgs({ skipLoadingScreen: true, data: {}, action: async () => { await bookPlayer.playBook(BONUS_BOOKS['full_round']); } })}
+  {template}
 />

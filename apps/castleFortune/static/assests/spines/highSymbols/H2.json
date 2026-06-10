@@ -1,0 +1,172 @@
+{
+"skeleton": {
+	"hash": "tY92ZA2Ha/9ZTavEi+g+wpgS4yI",
+	"spine": "3.8.75",
+	"x": -627,
+	"y": -627,
+	"width": 1254,
+	"height": 1254,
+	"images": "C:/Users/PC/Desktop/Castle Fortune/Symbol Conponents/Bag Components",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root" },
+	{ "name": "bone2", "parent": "root" },
+	{ "name": "bone3", "parent": "root" },
+	{ "name": "bone4", "parent": "root" },
+	{ "name": "bone5", "parent": "root" },
+	{ "name": "bone6", "parent": "root" }
+],
+"slots": [
+	{ "name": "COIN STUCK", "bone": "bone", "attachment": "COIN STUCK2" },
+	{ "name": "COIN STUCK2", "bone": "bone6", "attachment": "COIN STUCK" },
+	{ "name": "BOTTOM BAG", "bone": "root", "attachment": "BOTTOM BAG" },
+	{ "name": "TOP Bag", "bone": "bone5", "attachment": "TOP Bag" },
+	{ "name": "COIN1", "bone": "bone2", "attachment": "COIN1" },
+	{ "name": "COIN2", "bone": "bone3", "attachment": "COIN2" },
+	{ "name": "COIN3", "bone": "bone4", "attachment": "COIN3" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"COIN1": {
+				"COIN1": { "width": 1254, "height": 1254 }
+			},
+			"COIN2": {
+				"COIN2": { "width": 1254, "height": 1254 }
+			},
+			"COIN3": {
+				"COIN3": { "width": 1254, "height": 1254 }
+			},
+			"COIN STUCK2": {
+				"COIN STUCK": { "width": 1254, "height": 1254 }
+			},
+			"COIN STUCK": {
+				"COIN STUCK": { "width": 1254, "height": 1254 },
+				"COIN STUCK2": { "path": "COIN STUCK", "width": 1254, "height": 1254 }
+			},
+			"BOTTOM BAG": {
+				"BOTTOM BAG": { "width": 1254, "height": 1254 }
+			},
+			"TOP Bag": {
+				"TOP Bag": { "width": 1254, "height": 1254 }
+			}
+		}
+	}
+],
+"animations": {
+	"fall": {
+		"bones": {
+			"root": {
+				"scale": [
+					{},
+					{ "time": 0.1667, "x": 0.99, "y": 0.89 },
+					{ "time": 0.3333 }
+				]
+			}
+		}
+	},
+	"hit": {
+		"slots": {
+			"COIN2": {
+				"color": [
+					{ "time": 0.8333, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"COIN1": {
+				"color": [
+					{ "time": 0.8333, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"COIN3": {
+				"color": [
+					{ "time": 0.8333, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"bone2": {
+				"rotate": [
+					{},
+					{ "time": 0.6333, "angle": 10.65 },
+					{ "time": 0.7667, "angle": 19.61 }
+				],
+				"translate": [
+					{},
+					{ "time": 0.3, "x": -33.2, "y": 23.24 },
+					{ "time": 0.5, "x": -71.38, "y": 4.98 },
+					{ "time": 0.6333, "x": -116.2, "y": -69.72 },
+					{ "time": 0.7667, "x": -126.16, "y": -151.06 },
+					{ "time": 0.9, "x": -127.82, "y": -215.8 },
+					{ "time": 1, "x": -136.12, "y": -308.76 }
+				]
+			},
+			"bone3": {
+				"rotate": [
+					{},
+					{ "time": 0.5667, "angle": 10.65 },
+					{ "time": 0.7, "angle": 19.61 }
+				],
+				"translate": [
+					{},
+					{ "time": 0.2333, "x": 4.98, "y": -39.84 },
+					{ "time": 0.4333, "x": 21.58, "y": -134.46 },
+					{ "time": 0.5667, "x": 26.56, "y": -310.42 },
+					{ "time": 0.7, "x": 96.28, "y": -396.74 },
+					{ "time": 0.8333, "x": 49.8, "y": -511.28 },
+					{ "time": 0.9333, "x": 44.82, "y": -527.88 }
+				]
+			},
+			"bone4": {
+				"rotate": [
+					{},
+					{ "time": 0.4333, "angle": -15.37 },
+					{ "time": 0.5667, "angle": 10.65 },
+					{ "time": 0.7, "angle": 19.61 }
+				],
+				"translate": [
+					{},
+					{ "time": 0.2333, "x": 89.64, "y": -14.94 },
+					{ "time": 0.4333, "x": 14.94, "y": -33.2 },
+					{ "time": 0.5667, "x": 247.34, "y": -363.54 },
+					{ "time": 0.7, "x": 346.94, "y": -464.8 },
+					{ "time": 0.8333, "x": 336.98, "y": -587.64 },
+					{ "time": 0.9333, "x": 373.5, "y": -660.68 }
+				]
+			},
+			"bone": {
+				"translate": [
+					{},
+					{ "time": 1, "x": -3.32, "y": 154.38 }
+				],
+				"scale": [
+					{ "x": 0.7 },
+					{ "time": 0.3333, "x": 0.8 },
+					{ "time": 0.5333, "x": 0.9 },
+					{ "time": 0.8, "x": 0.92 },
+					{ "time": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"offsets": [
+					{ "slot": "TOP Bag", "offset": -3 }
+				]
+			},
+			{
+				"time": 1,
+				"offsets": [
+					{ "slot": "COIN STUCK", "offset": 2 },
+					{ "slot": "TOP Bag", "offset": -3 }
+				]
+			}
+		]
+	}
+}
+}

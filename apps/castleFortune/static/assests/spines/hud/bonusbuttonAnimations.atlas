@@ -1,0 +1,13 @@
+
+bonusbuttonAnimations.png
+size: 373,328
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bonusLemon
+  rotate: false
+  xy: 2, 2
+  size: 369, 324
+  orig: 2830, 1471
+  offset: 1230, 573
+  index: -1

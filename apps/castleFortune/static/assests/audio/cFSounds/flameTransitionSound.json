@@ -1,0 +1,9 @@
+{
+  "src": "/assests/audio/cFSounds/flameTransitionSound.MP3",
+  "sprite": {
+    "flameTransitionSound": [0, 30000]
+  },
+  "config": {
+    "flameTransitionSound": { "volume": 1 }
+  }
+}

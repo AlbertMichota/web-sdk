@@ -1,0 +1,63 @@
+{
+"skeleton": {
+	"hash": "01fedeAsfIulrAphuez9YMasJW0",
+	"spine": "3.8.75",
+	"x": -594,
+	"y": -540,
+	"width": 1188,
+	"height": 1080,
+	"images": "C:/Users/PC/Desktop/Castle Fortune/starting screen",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root" }
+],
+"slots": [
+	{ "name": "bannerstyle", "bone": "bone", "attachment": "bannerstyle" }
+],
+"skins": [
+	{
+		"name": "banner1",
+		"attachments": {
+			"bannerstyle": {
+				"bannerstyle": { "name": "Banner 1/BANNER 1", "width": 1188, "height": 1080 }
+			}
+		}
+	},
+	{
+		"name": "banner2",
+		"attachments": {
+			"bannerstyle": {
+				"bannerstyle": { "name": "Banner 2/banner2", "width": 1188, "height": 1080 }
+			}
+		}
+	},
+	{
+		"name": "banner3",
+		"attachments": {
+			"bannerstyle": {
+				"bannerstyle": { "name": "Banner 3/banner3", "width": 1188, "height": 1080 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"bones": {
+			"bone": {
+				"translate": [
+					{},
+					{ "time": 2.7667, "y": 10 },
+					{ "time": 5.6667 }
+				],
+				"scale": [
+					{},
+					{ "time": 2.7667, "x": 1.05, "y": 1.05 },
+					{ "time": 5.6667 }
+				]
+			}
+		}
+	}
+}
+}

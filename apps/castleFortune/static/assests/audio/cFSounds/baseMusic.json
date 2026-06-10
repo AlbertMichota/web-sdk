@@ -1,0 +1,9 @@
+{
+  "src": "/assests/audio/cFSounds/baseMusic.MP3",
+  "sprite": {
+    "baseMusic": [0, 300000, true]
+  },
+  "config": {
+    "baseMusic": { "volume": 1 }
+  }
+}

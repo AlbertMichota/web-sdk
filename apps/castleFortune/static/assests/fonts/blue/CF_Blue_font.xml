@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><font>
+  <info face="blue_font" size="341"/>
+  <common scaleW="1536" scaleH="1024"/>
+  <pages>
+    <page id="0" file="blue_font.webp"/>
+  </pages>
+  <chars count="26">
+    <char id="65" x="26" y="160.5" width="173.75" height="197.25" xoffset="0" yoffset="0" xadvance="173.75"/>
+    <char id="66" x="222.5" y="157.75" width="150.25" height="200" xoffset="0" yoffset="0" xadvance="150.25"/>
+    <char id="67" x="390.25" y="157.75" width="158.75" height="200" xoffset="0" yoffset="0" xadvance="158.75"/>
+    <char id="68" x="574" y="161.75" width="154.5" height="193" xoffset="0" yoffset="0" xadvance="154.5"/>
+    <char id="69" x="751.75" y="160.25" width="138.25" height="193" xoffset="0" yoffset="0" xadvance="138.25"/>
+    <char id="70" x="926.75" y="162.5" width="131.25" height="190.75" xoffset="0" yoffset="0" xadvance="131.25"/>
+    <char id="71" x="1077.75" y="160.25" width="158.75" height="197.5" xoffset="0" yoffset="0" xadvance="158.75"/>
+    <char id="72" x="1252.75" y="160.25" width="158.75" height="195.25" xoffset="0" yoffset="0" xadvance="158.75"/>
+    <char id="73" x="1431.25" y="160.25" width="86.75" height="195.25" xoffset="0" yoffset="0" xadvance="86.75"/>
+    <char id="74" x="17.25" y="414.25" width="131.25" height="188.5" xoffset="0" yoffset="0" xadvance="131.25"/>
+    <char id="75" x="171.5" y="412" width="158.75" height="193" xoffset="0" yoffset="0" xadvance="158.75"/>
+    <char id="76" x="350" y="409.5" width="134.75" height="193" xoffset="0" yoffset="0" xadvance="134.75"/>
+    <char id="77" x="490.75" y="412" width="206.75" height="188.5" xoffset="0" yoffset="0" xadvance="206.75"/>
+    <char id="78" x="714" y="412" width="162.25" height="190.75" xoffset="0" yoffset="0" xadvance="162.25"/>
+    <char id="79" x="885.5" y="409.75" width="170" height="193" xoffset="0" yoffset="0" xadvance="170"/>
+    <char id="80" x="1060.5" y="412" width="141.75" height="188.5" xoffset="0" yoffset="0" xadvance="141.75"/>
+    <char id="81" x="1208.25" y="409.5" width="162.25" height="218.25" xoffset="0" yoffset="0" xadvance="162.25"/>
+    <char id="82" x="1383.25" y="412" width="141.75" height="188.5" xoffset="0" yoffset="0" xadvance="141.75"/>
+    <char id="83" x="65.25" y="659" width="148.5" height="190.75" xoffset="0" yoffset="0" xadvance="148.5"/>
+    <char id="84" x="230" y="663.5" width="148.5" height="184" xoffset="0" yoffset="0" xadvance="148.5"/>
+    <char id="85" x="391.25" y="663.5" width="162.25" height="186.25" xoffset="0" yoffset="0" xadvance="162.25"/>
+    <char id="86" x="569.75" y="661.25" width="170" height="185.5" xoffset="0" yoffset="0" xadvance="170"/>
+    <char id="87" x="751.75" y="661.25" width="227.5" height="186.25" xoffset="0" yoffset="0" xadvance="227.5"/>
+    <char id="88" x="985" y="659" width="169" height="188.5" xoffset="0" yoffset="0" xadvance="169"/>
+    <char id="89" x="1163.5" y="659" width="170" height="188.5" xoffset="0" yoffset="0" xadvance="170"/>
+    <char id="90" x="1335.25" y="659" width="141.75" height="188.5" xoffset="0" yoffset="0" xadvance="141.75"/>
+  </chars>
+</font>

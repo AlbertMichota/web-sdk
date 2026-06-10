@@ -1,0 +1,76 @@
+
+LowSymbols.webp
+size: 2011,858
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+10 Components/10OFF
+  rotate: true
+  xy: 2, 375
+  size: 481, 430
+  orig: 1536, 1024
+  offset: 528, 297
+  index: -1
+10 Components/10ON
+  rotate: true
+  xy: 434, 372
+  size: 484, 418
+  orig: 1536, 1024
+  offset: 526, 315
+  index: -1
+Ace Components/AceOFF
+  rotate: false
+  xy: 854, 426
+  size: 382, 430
+  orig: 1536, 1024
+  offset: 577, 297
+  index: -1
+Ace Components/AceON
+  rotate: false
+  xy: 1238, 437
+  size: 388, 419
+  orig: 1536, 1024
+  offset: 574, 313
+  index: -1
+Jack Components/JackOFF
+  rotate: true
+  xy: 853, 56
+  size: 314, 430
+  orig: 1536, 1024
+  offset: 611, 297
+  index: -1
+Jack Components/JackON copy
+  rotate: false
+  xy: 1665, 23
+  size: 318, 416
+  orig: 1536, 1024
+  offset: 609, 313
+  index: -1
+King Components/KingOFF
+  rotate: true
+  xy: 2, 9
+  size: 364, 430
+  orig: 1536, 1024
+  offset: 586, 297
+  index: -1
+King Components/KingON
+  rotate: true
+  xy: 434, 2
+  size: 368, 417
+  orig: 1536, 1024
+  offset: 584, 316
+  index: -1
+Queen Components/QueenOFF
+  rotate: false
+  xy: 1285, 6
+  size: 378, 429
+  orig: 1536, 1024
+  offset: 579, 298
+  index: -1
+Queen Components/QueenON
+  rotate: false
+  xy: 1628, 441
+  size: 381, 415
+  orig: 1536, 1024
+  offset: 578, 316
+  index: -1

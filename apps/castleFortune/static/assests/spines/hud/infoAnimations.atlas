@@ -1,0 +1,34 @@
+
+infoAnimations.png
+size: 298,122
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+infoOff
+  rotate: false
+  xy: 111, 12
+  size: 99, 108
+  orig: 2830, 1471
+  offset: 1365, 681
+  index: -1
+infoOn
+  rotate: false
+  xy: 2, 4
+  size: 107, 116
+  orig: 2830, 1471
+  offset: 1361, 677
+  index: -1
+slotInfoON
+  rotate: true
+  xy: 212, 2
+  size: 118, 42
+  orig: 2830, 1471
+  offset: 1356, 714
+  index: -1
+slotInfoOff
+  rotate: true
+  xy: 256, 4
+  size: 116, 40
+  orig: 2830, 1471
+  offset: 1357, 715
+  index: -1

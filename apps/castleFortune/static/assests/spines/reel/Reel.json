@@ -1,0 +1,79 @@
+{
+"skeleton": {
+	"hash": "7JtAzz53NAYwrS5PdIJpy2Jd8VQ",
+	"spine": "3.8.75",
+	"x": -960,
+	"y": -540,
+	"width": 1920,
+	"height": 1080,
+	"images": "../Reel Assets/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root" },
+	{ "name": "bone2", "parent": "root" }
+],
+"slots": [
+	{ "name": "Reel BG", "bone": "bone2", "attachment": "Reel BG" },
+	{ "name": "glow hit", "bone": "bone" },
+	{ "name": "Reel", "bone": "root", "attachment": "Reel" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"glow hit": {
+				"glow hit": { "width": 1920, "height": 1080 }
+			},
+			"Reel BG": {
+				"Reel BG": { "width": 1920, "height": 1080 }
+			},
+			"Reel": {
+				"Reel": { "width": 1920, "height": 1080 }
+			}
+		}
+	}
+],
+"animations": {
+	"open": {
+		"bones": {
+			"root": {
+				"scale": [
+					{ "x": 0.1, "y": 0.1 },
+					{ "time": 0.1667 }
+				]
+			}
+		}
+	},
+	"spin active": {
+		"slots": {
+			"glow hit": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1, "color": "ffffff79" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"scale": [
+					{},
+					{ "time": 0.1333, "x": 1.02, "y": 1.02 },
+					{ "time": 0.2667 }
+				]
+			},
+			"bone": {
+				"rotate": [
+					{ "time": 0.1, "angle": -0.02 }
+				],
+				"translate": [
+					{ "y": -50.22 },
+					{ "time": 0.1, "y": 39.62 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,41 @@
+
+BG.png
+size: 1924,1605
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+49b8ccb2-67b6-4ce6-a88f-3dd936d0e899a copy
+  rotate: false
+  xy: 2, 2
+  size: 892, 216
+  orig: 1536, 1024
+  offset: 322, 404
+  index: -1
+49b8ccb2-67b6-4ce6-a88f-dd936d0e899a copdry
+  rotate: false
+  xy: 768, 281
+  size: 677, 240
+  orig: 1536, 1024
+  offset: 422, 405
+  index: -1
+49b8ccb2-67b6-4ce6-a88f-dd936d0e899a copy
+  rotate: false
+  xy: 2, 220
+  size: 764, 301
+  orig: 1536, 1024
+  offset: 411, 392
+  index: -1
+CASTLE IMAGE
+  rotate: true
+  xy: 1447, 123
+  size: 398, 445
+  orig: 1920, 1080
+  offset: 1507, 523
+  index: -1
+CF_BG
+  rotate: false
+  xy: 2, 523
+  size: 1920, 1080
+  orig: 1920, 1080
+  offset: 0, 0
+  index: -1

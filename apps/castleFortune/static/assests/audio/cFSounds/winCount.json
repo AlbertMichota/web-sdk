@@ -1,0 +1,9 @@
+{
+  "src": "/assests/audio/cFSounds/winCount.MP3",
+  "sprite": {
+    "winCount": [0, 120000]
+  },
+  "config": {
+    "winCount": { "volume": 1 }
+  }
+}

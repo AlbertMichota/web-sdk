@@ -1,0 +1,65 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Verify castle-fortune build",
+			"type": "shell",
+			"command": "pnpm --filter castle-fortune build",
+			"args": [],
+			"isBackground": false,
+			"problemMatcher": [
+				"$tsc"
+			]
+		},
+		{
+			"label": "Verify castle-fortune build",
+			"type": "shell",
+			"command": "pnpm --filter castle-fortune build",
+			"args": [],
+			"isBackground": false,
+			"problemMatcher": [
+				"$tsc"
+			]
+		},
+		{
+			"label": "Verify castle-fortune build",
+			"type": "shell",
+			"command": "pnpm --filter castle-fortune build",
+			"args": [],
+			"isBackground": false,
+			"problemMatcher": [
+				"$tsc"
+			]
+		},
+		{
+			"label": "Verify castle-fortune build",
+			"type": "shell",
+			"command": "pnpm --filter castle-fortune build",
+			"args": [],
+			"isBackground": false,
+			"problemMatcher": [
+				"$tsc"
+			]
+		},
+		{
+			"label": "Verify castle-fortune build",
+			"type": "shell",
+			"command": "pnpm --filter castle-fortune build",
+			"args": [],
+			"isBackground": false,
+			"problemMatcher": [
+				"$tsc"
+			]
+		},
+		{
+			"label": "Verify castle-fortune build",
+			"type": "shell",
+			"command": "pnpm --filter castle-fortune build",
+			"args": [],
+			"isBackground": false,
+			"problemMatcher": [
+				"$tsc"
+			]
+		}
+	]
+}

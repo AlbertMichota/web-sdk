@@ -1,0 +1,56 @@
+{
+"skeleton": {
+	"hash": "cYzRTFjqs/9IJzhgETROyhZEntc",
+	"spine": "3.8.75",
+	"x": -1415,
+	"y": -735,
+	"width": 2830,
+	"height": 1471,
+	"images": "C:/Users/PC/Desktop/Castle Fortune/HUD/HUD ASSETS",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root" }
+],
+"slots": [
+	{ "name": "off", "bone": "root", "attachment": "off" },
+	{ "name": "on", "bone": "bone", "attachment": "on" }
+],
+"skins": [
+	{
+		"name": "infovolume",
+		"attachments": {
+			"on": {
+				"on": { "name": "infoOn", "y": 0.5, "width": 2830, "height": 1471 }
+			},
+			"off": {
+				"off": { "name": "infoOff", "y": 0.5, "width": 2830, "height": 1471 }
+			}
+		}
+	},
+	{
+		"name": "slotinfo",
+		"attachments": {
+			"on": {
+				"on": { "name": "slotInfoON", "y": 0.5, "width": 2830, "height": 1471 }
+			},
+			"off": {
+				"off": { "name": "slotInfoOff", "y": 0.5, "width": 2830, "height": 1471 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"on": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				]
+			}
+		}
+	}
+}
+}

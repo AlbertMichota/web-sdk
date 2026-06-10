@@ -1,0 +1,10 @@
+Mock replay endpoint:
+http://127.0.0.1:8800/api/bet/replay/mock-crypto-reapers/1/BASE/457
+
+Frontend replay URL:
+http://localhost:3001/?replay=true&game=mock-crypto-reapers&version=1&mode=BASE&event=457&currency=USD&amount=1000000&lang=en&device=desktop&social=false&rgs_url=http://127.0.0.1:8800/api/
+
+Notes:
+- books_base.json currently contains a single base book with id 457.
+- The mock replay route matches that exact id first, so event=457 will select it directly.
+- amount=1000000 displays as a 1.00 USD base bet in replay mode.

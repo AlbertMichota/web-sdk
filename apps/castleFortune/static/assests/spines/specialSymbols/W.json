@@ -1,0 +1,80 @@
+{
+"skeleton": {
+	"hash": "9xbyGSGaxm+RYbIRN4iUTS+k6+8",
+	"spine": "3.8.75",
+	"x": -627,
+	"y": -627,
+	"width": 1254,
+	"height": 1254,
+	"images": "../Symbol Conponents/Wild Components/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root" },
+	{ "name": "bone2", "parent": "root" },
+	{ "name": "bone3", "parent": "root" },
+	{ "name": "bone4", "parent": "root" }
+],
+"slots": [
+	{ "name": "Background", "bone": "root", "attachment": "Wild_Background" },
+	{ "name": "Border TOP", "bone": "bone", "attachment": "WILD_Border_Top" },
+	{ "name": "Castle", "bone": "bone2", "attachment": "Wild_Castle" },
+	{ "name": "Border BOT", "bone": "bone3", "attachment": "WILD_Border_Bottom" },
+	{ "name": "Wild Text", "bone": "bone4", "attachment": "Wild_TEXT" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"Wild Text": {
+				"Wild_TEXT": { "width": 1254, "height": 1254 }
+			},
+			"Background": {
+				"Wild_Background": { "width": 1254, "height": 1254 }
+			},
+			"Border BOT": {
+				"WILD_Border_Bottom": { "width": 1254, "height": 1254 }
+			},
+			"Castle": {
+				"Wild_Castle": { "width": 1254, "height": 1254 }
+			},
+			"Border TOP": {
+				"WILD_Border_Top": { "width": 1254, "height": 1254 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"bones": {
+			"bone4": {
+				"rotate": [
+					{},
+					{ "time": 0.1667, "angle": -2.01 },
+					{ "time": 0.5 },
+					{ "time": 0.8333, "angle": 2.01 },
+					{ "time": 1 }
+				],
+				"scale": [
+					{},
+					{ "time": 0.5, "x": 1.03, "y": 1.05 },
+					{ "time": 1 }
+				]
+			},
+			"bone2": {
+				"translate": [
+					{},
+					{ "time": 0.5, "y": 10 },
+					{ "time": 1 }
+				],
+				"scale": [
+					{},
+					{ "time": 0.5, "x": 1.04, "y": 1.04 },
+					{ "time": 1 }
+				]
+			}
+		}
+	}
+}
+}

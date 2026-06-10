@@ -1,0 +1,27 @@
+
+StartingScreenBanners.png
+size: 1808,772
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Banner 1/BANNER 1
+  rotate: false
+  xy: 2, 2
+  size: 600, 768
+  orig: 1188, 1080
+  offset: 294, 156
+  index: -1
+Banner 2/banner2
+  rotate: false
+  xy: 604, 2
+  size: 600, 768
+  orig: 1188, 1080
+  offset: 294, 156
+  index: -1
+Banner 3/banner3
+  rotate: false
+  xy: 1206, 2
+  size: 600, 768
+  orig: 1188, 1080
+  offset: 294, 156
+  index: -1

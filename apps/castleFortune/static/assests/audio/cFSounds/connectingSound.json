@@ -1,0 +1,9 @@
+{
+  "src": "/assests/audio/cFSounds/connectingSound.MP3",
+  "sprite": {
+    "connectingSound": [0, 30000]
+  },
+  "config": {
+    "connectingSound": { "volume": 1 }
+  }
+}
